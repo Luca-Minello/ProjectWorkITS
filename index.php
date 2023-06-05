@@ -191,7 +191,7 @@
                     <th>Destinatario Transazione</th>
                     <th>Data <small class ="text-secondary">(YYYY/MM/DD)</small></th>
                     <th>Importo</th>
-                    <th>#</th>
+                    <th>Info</th>
                 </tr>
             </thead>
             <tbody>
