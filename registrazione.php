@@ -203,7 +203,7 @@ if (isset($_REQUEST["invio"]) && $_POST['captcha'] == $_SESSION['captcha']) {
     <a href="#"><img src="30secmod.gif" width="200" height="200" class="img"></a>>
     <div class="container">
         <form action="" method="POST" onsubmit="return Controllo()">
-            <div>
+            <div class="form-group w-75 centrare">
                 <label for="email" id="l1">Email: </label>
                 <input type="email" id="email" name="email" autocomplete="off" placeholder="henrymiles@gmail.com"
                     required>

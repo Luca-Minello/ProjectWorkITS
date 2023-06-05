@@ -21,9 +21,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Password dimenticata</title>
 </head>
 <body>
+    <div class="container text-warning davide">
     <form action="" method="post" onsubmit="return Controllo()">
         <div>
             <h4>Recupero password</h4>
@@ -37,9 +43,10 @@
             <p id="info"></p>
         </div>
         <div>
-            <input type="submit" name="Invio" id="Invio" value="Invia">
+            <input class="btn btn-block text-warning" style="background-color:#070707;" type="submit" name="Invio" id="Invio" value="Invia">
         </div>
     </form>
+    </div>
 </body>
 <?php
     if($isok)

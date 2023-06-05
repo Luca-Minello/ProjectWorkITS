@@ -87,7 +87,7 @@
     <a id="font">Log-In</a>
     <br>
     <br>
-        <div class="form-group w-75 centrare">
+        <div class=" text-warning form-group w-75 centrare">
             <label id="l1" for="email" style="color:#a76b09;">Email: </label>
             <input type="email" name="email" placeholder="henrymiles@gmail.com" autocomplete="off" required id="email" class="form-control" style="background-color:#dda74f;">
         </div>
