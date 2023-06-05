@@ -167,13 +167,13 @@ if (isset($_REQUEST["invio"]) && $_POST['captcha'] == $_SESSION['captcha']) {
         }
 
         @font-face {
-            font-family: 'AlexBrush-Regular';
-            src: url('AlexBrush-Regular.eot');
-            src: local('AlexBrush-Regular'), url('AlexBrush-Regular.ttf') format('truetype');
+            font-family: 'Arvo-Bold';
+            src: url('Arvo-Bold.eot');
+            src: local('Arvo-Bold'), url('Arvo-Bold.ttf') format('truetype');
         }
 
         #font {
-            font: 65px 'AlexBrush-Regular', Georgia, serif;
+            font: 50px 'Arvo-Bold', Georgia, serif;
             color: #d4c03d;
             position: relative;
             bottom: 100px;
@@ -200,7 +200,7 @@ if (isset($_REQUEST["invio"]) && $_POST['captcha'] == $_SESSION['captcha']) {
         </div>
     </div>
 
-    <a href="#"><img src="30secmod.gif" width="225" height="225" class="img"></a>>
+    <a href="#"><img src="30secmod.gif" width="200" height="200" class="img"></a>>
     <div class="container">
         <form action="" method="POST" onsubmit="return Controllo()">
             <div>
