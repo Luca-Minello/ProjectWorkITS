@@ -19,6 +19,64 @@ if (isset($_REQUEST["Invio"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #errore {
+            display: none;
+            color: #d4c03d;
+        }
+
+        #info {
+            display: none;
+            color:#d4c03d;
+        }
+        
+
+        #message {
+            display: none;
+            background: black;
+            color: #000;
+            position: absolute;
+            right: 10px;
+            padding: 20px;
+            margin-top: 10px;
+        }
+
+        #message p {
+            padding: 10px 35px;
+            font-size: 18px;
+        }
+
+        .valid {
+            color: green;
+        }
+
+        .valid:before {
+            position: relative;
+            left: -35px;
+            content: "✔";
+        }
+
+
+        .invalid {
+            color: #d4c03d;
+        }
+
+        .invalid:before {
+            position: relative;
+            left: -35px;
+            content: "✖";
+        }
+
+        
+        #error {
+            color: #d4c03d;
+        }
+
+        .glow-button:hover {
+            color: rgba(255, 255, 255, 1);
+            box-shadow: 0 10px 25px rgba(207, 117, 6, 0.4);
+        }
+    </style>
     <link rel="stylesheet" href="http://localhost/Projectworkits/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>

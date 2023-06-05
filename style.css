@@ -1,7 +1,7 @@
 #errore{
     display:none;
     color:#d4c03d;
-}
+   }
 #info{
     display:none;
     color:#d4c03d;
@@ -20,7 +20,16 @@
     border-radius: 50px;
     
   }
-
+.stefan{
+    width: 40%;
+    margin: 80px auto;
+    background-color: #070707;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
 .centrare{
     margin: 10px auto;
 
@@ -43,3 +52,38 @@ body{
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(207, 117, 6, 0.4);
   }
+#message {
+    display:none;
+    background: #070707;
+    color: #d4c03d;
+    padding: 5px;
+    margin-top: 10px;
+    position: absolute;
+    top :50%;
+    left:70%;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔ ";
+}
+
+  
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}

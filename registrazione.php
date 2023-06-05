@@ -260,7 +260,6 @@ if (isset($_REQUEST["invio"]) && $_POST['captcha'] == $_SESSION['captcha']) {
 </body>
 
 <script>
-
     var myInput = document.getElementById("password");
     var letter = document.getElementById("letter");
     var capital = document.getElementById("capital");
@@ -288,6 +287,7 @@ if (isset($_REQUEST["invio"]) && $_POST['captcha'] == $_SESSION['captcha']) {
             letter.classList.add("invalid");
 
         }
+
 
         // Validate capital letters
         var upperCaseLetters = /[A-Z]/g;
@@ -323,7 +323,6 @@ if (isset($_REQUEST["invio"]) && $_POST['captcha'] == $_SESSION['captcha']) {
         }
     }
     function Controllo() {
-
         let pass1 = document.getElementById("password").value;
         let pass2 = document.getElementById("passwordConferma").value;
 
@@ -353,8 +352,6 @@ if (isset($_REQUEST["invio"]) && $_POST['captcha'] == $_SESSION['captcha']) {
 
 
         return true;
-
-
     }
 </script>
 

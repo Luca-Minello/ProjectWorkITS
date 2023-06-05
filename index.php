@@ -66,7 +66,7 @@
                         </a>
                         <div class="dropdown-menu bg-warning">
                             <a class="dropdown-item" href="http://localhost/Projectworkits/Index.php">Informazioni account</a>
-                            <a class="dropdown-item" href="http://localhost/Projectworkits/Account/modificapassword.php">Modifica password</a>
+                            <a class="dropdown-item" href="http://localhost/Projectworkits/Account/ModificaPassword.php">Modifica password</a>
                             <a class="dropdown-item text-danger" href="http://localhost/Projectworkits/Account/LogOut.php">Log Out</a>
                         </div>
                     </li> 
